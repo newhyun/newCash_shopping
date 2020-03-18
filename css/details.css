@@ -87,7 +87,7 @@ a{
     line-height: 40px;
     display: block;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 65px;
     background: #F5CC28;
     border-radius: 10px;
     color: #ffffff;
@@ -102,9 +102,7 @@ a{
 .box2{
     width: 90%;
     margin: 0 auto;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 50px 20px 50px 20px;
     box-sizing: border-box;
 }
 .box2 p{
