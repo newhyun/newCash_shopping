@@ -37,6 +37,10 @@ a{
     clear: both;
 }
 
+div:focus{
+        outline:none;
+}
+
 /******************/
 
 .topBox{
