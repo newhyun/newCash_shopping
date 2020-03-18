@@ -38,7 +38,10 @@ a{
 }
 
 div:focus{
-        outline:none;
+    outline: none;
+    border: none;
+    background: transparent;
+    resize: none;
 }
 
 /******************/
