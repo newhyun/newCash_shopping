@@ -1,0 +1,235 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+/*************************
+        default
+**************************/
+
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0 auto;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#wrap{
+    width: 100%;
+}
+
+.cf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/******************/
+
+.topBox{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+}
+.topBox a{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.topBox a img{
+    vertical-align: bottom;
+    margin-top:20px; 
+}
+
+.box1{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.box1 .productImg{
+    text-align: center;
+    
+}
+.box1 .title{
+    margin-top: 20px;
+}
+.box1 .coin{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.box1 .coin img,.box1 .coin p{
+    display: inline-block;
+}
+.box1 .coin img{
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.box1 .coin p{
+    font-size: 14px;
+}
+.box1 .buybtn{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    background: #F5CC28;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.line{
+    border: 1px solid #eeeeee;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px #f1f1f1;
+}
+
+.box2{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.box2 p{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+.box2 span{
+    display: block;
+    font-size: 13px;
+    color: #444444;
+    line-height: 15px;
+}
+
+
+/*팝업 시작*/
+.blocker{
+    background-color: rgba(0,0,0,0.5);
+}
+.modal{
+    box-shadow:0 0 5px #444444;
+    padding:0;
+}
+.modal a.close-modal {
+    display: none;
+}
+.popBox1{
+    width: 80%;
+    margin: 0 auto;
+}
+.pop_titleBox{
+    text-align: center;
+    padding-top: 50px;
+}
+.pop_coin{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.pop_coin img,.pop_coin p{
+    display: inline-block;
+}
+.pop_coin img{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.pop_coin p{
+    font-size: 14px;
+}
+.pop_line{
+    border: 1px solid #eeeeee;
+    margin-top: 50px;
+}
+.warnText{
+    text-align: right;
+    font-size: 12px;
+    color: #959595;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+.popBox1 ul{}
+.popBox1 ul li{
+    width: 50%;
+    float: left;
+}
+.popBox1 ul li.cash{
+    text-align: right;
+}
+.popBox1 ul li.colorFont{
+    color: #6326BF;
+}
+.bottomBtn{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.bottomBtn a{
+    display: block;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    
+    height: 37px;
+    line-height: 37px;
+}
+.bottomBtn .cancelBtn{
+    width: 35%;
+    margin-right: 3%;
+    background: #9985B9;
+    color: #ffffff;
+}
+.bottomBtn .buyBtn{
+    width: 62%;
+    background: #F5CC28;
+    color: #ffffff;
+    box-shadow: 0px 2px 3px #cccccc;
+}
+/*2*/
+.popBox2{
+    text-align: center;
+}
+.popBox2 h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.popBox2 p{
+    font-size: 13px;
+    color: #444444;
+}
+.popBox2 .coupon{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    height: 35px;
+    line-height: 35px;
+    background: #F5CC28;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/*팝업 끝*/
+
+
+
+
+

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   
+    <title>SHOPPING</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    
+<!--    <script src="js/main.js" type="text/javascript"></script>-->
+    
+    
+    
+    <script>
+    
+        $(function () {
+            $(".tab_content").hide();
+            $(".tab_content:first").show();
+            $("ul.tabs li").click(function () {
+                $("ul.tabs li").removeClass("active");
+                $(this).addClass("active");
+                $(".tab_content").hide()
+                var activeTab = $(this).attr("rel");
+                $("#" + activeTab).fadeIn()
+            });
+        });
+
+
+        $(document).ready(function () {
+
+             $('.slider-for').slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+//              arrows: false,
+//              fade: true,
+              asNavFor: '.slider-nav'
+            });
+            $('.slider-nav').slick({
+              slidesToShow: 4.3,
+              slidesToScroll: 1,
+              asNavFor: '.slider-for',
+//              dots: true,
+              centerMode: false,
+              focusOnSelect: true
+            });
+
+        });
+     
+    </script>
+   
+</head>
+    
+
+
+<body>
+    
+    <div id="container">
+        
+        <ul class="tabs cf">
+            <li rel="tab1" class="active">카페</li>
+            <li rel="tab2">쇼핑</li>
+        </ul>
+        
+        <div class="tab_container">
+            <!----#tab1---->
+            <div id="tab1" class="tab_content">
+                <div class="tabnav">
+                    <div class="slider-nav cf">
+                        <div>
+                            <p>
+                                <img src="images/starbucks.png" alt="카페1"/>
+                                <span>스타벅스</span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <img src="images/ediya.png" alt="카페2"/>
+                                <span>이디야</span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <img src="images/twosome.png" alt="카페3"/>
+                                <span>투썸플레이스</span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <img src="images/starbucks.png" alt="카페1"/>
+                                <span>스타벅스</span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <img src="images/ediya.png" alt="카페2"/>
+                                <span>이디야</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-for cf">
+                    <div class="cafeBox1 cf">
+                        <a href="subpage/details.html" class="menuBox cf">
+                            <div class="imgBox">
+                                <img src="images/coffee2.png" alt="커피2">
+                            </div>
+                            <div class="textBox">
+                                <p>카페 아메리카노 Tall</p>
+                                <div class="coinBox cf">
+                                    <img src="images/coin.png" alt="코인"/>
+                                    <p>4,100</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="subpage/details.html" class="menuBox cf">
+                            <div class="imgBox">
+                                <img src="images/coffee1.png" alt="커피1">
+                            </div>
+                            <div class="textBox">
+                                <p>아이스 아메리카노 Tall</p>
+                                <div class="coinBox cf">
+                                    <img src="images/coin.png" alt="코인"/>
+                                    <p>4,100</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div>222</div>
+                    <div>333</div>
+                    <div>444</div>
+                    <div>555</div>
+                </div>
+                
+               
+            </div>
+            <!----#tab2---->
+            <div id="tab2" class="tab_content">
+                <p>tab2</p>
+                 
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>

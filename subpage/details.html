@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   
+    <title>DETAILS</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="../css/details.css"/>
+    
+</head>
+    
+    
+<body>
+    <div id="sub_container">
+        <div class="topBox">
+            <a href="../shoppingMain.html">
+                <img src="../images/backIcon.png" alt="뒤로가기"/>
+            </a>
+        </div>
+        <div class="box1 cf">
+            <img class="productImg" src="../images/productImg.png" alt="제품"/>
+            <p class="title">아이스 아메리카노 Tall</p>
+            <div class="coin cf">
+                <img src="../images/coin.png" alt="코인"/>
+                <p>4,100</p>
+            </div>
+            <a href="#popUp1" rel="modal:open" class="buybtn">구매</a>
+        </div>
+        <div class="line"></div>
+        <div class="box2 cf">
+            <p>*상품설명</p>
+            <span>
+                크랑크루 초콜릿을 함유한 더욱 진한 초콜릿의 풍미를 느낄 수 있는 머핀입니다.
+            </span>
+            <p>*유의사항</p>
+            <span>
+                -본 상품은 매장 재고 상황에 따라 동일 상품으로 교환이 불가능할 수 있습니다.<br/>
+                -동일 상품 교환이 불가능한 경우 동일 가격이상의 다른 상품으로 교환이 가능하면 차액은 지불하셔야 합니다.<br/>
+                -상기 이미지는 실제와 다를 수 있습니다.<br/>
+                -상기 이미지는 연출된 것으로 실제와 다를 수 있습니다.
+            </span>
+            <p>*사용불가매장</p>
+            <span>
+                평택험프리점, 캠프케이시점, 군산에어베이스점, 대구캠프워커점, 평택험프리 메인몰점, 평택험프리 드룹몰점, 오산에어베이스점, 캠프캐롤점, 용산미8군점, 용산타운하우스점, 오션월드점, 오견월스입구점
+            </span>
+        </div>
+        
+
+    <!--popup-->
+        <div id="popUp1" class="modal">
+            <div class="popBox1 cf">
+                <div class="pop_titleBox cf">
+                    <p class="pop_title">아이스 아메리카노 Tall</p>
+                     <div class="pop_coin cf">
+                        <img src="../images/coin.png" alt="코인"/>
+                        <p>4,100</p>
+                    </div>
+                </div>
+                <div class="pop_line"></div>
+                <div class="warnText">유효기간 구매일로부터 30일</div>
+                <ul class="cf">
+                    <li>현재</li>
+                    <li class="cash">8,845</li>
+                </ul>
+                <ul class="cf">
+                    <li>잔여</li>
+                    <li class="cash colorFont">6,435</li>
+                </ul>
+                <div class="bottomBtn cf">
+                    <a href="#" rel="modal:close" class="cancelBtn">취소</a>
+                    <a href="#popUp2" rel="modal:open" class="buyBtn">구매</a> 
+                </div>
+            </div>
+        </div>
+    <!--popup-->
+        <div id="popUp2" class="modal">
+            <div class="popBox2 cfs">
+                <h3>결제 성공</h3>
+                <p>결제하신 제품의 쿠폰은<br/> 쿠폰함에서 확인하세요.</p>
+                <a href="#" class="coupon">쿠폰함 가기</a>
+            </div>
+        </div>
+    <!--popup-->
+        <div id="popUp3" class="modal">
+            <div class="popBox3 cfs">
+                <p>캐시가 부족합니다</p>
+                <a href="#" class="cancelBtn">닫기</a>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</body>
