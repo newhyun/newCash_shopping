@@ -55,11 +55,15 @@ a{
     display: block;
     font-size: 20px;
     color: #959595;
+    font-size: 14px;
 }
 .tabs li.active{
     border-bottom: 2px solid #F6E820;
     color: #000;
     z-index: 10;
+}
+.slick-next slick-arrow{
+    display: none;
 }
 
 /**/
@@ -69,6 +73,8 @@ a{
 
 #tab1{}
 .tabnav{
+    width: 100%;
+    overflow: hidden;
     background: #f9f9f9;
 }
 .slider-nav{
@@ -115,12 +121,12 @@ a{
     border-bottom: 1px solid #eeeeee;
     box-sizing: border-box;
 }
-.menuBox .imgBox,.menuBox .imgBox{
+.menuBox .imgBox,.menuBox .textBox{
     float: left;
 }
 .menuBox .imgBox{
     width: 30%;
-    padding-left: 15%;
+    padding-left: 10%;
     box-sizing: border-box;
 }
 .menuBox .imgBox img{
