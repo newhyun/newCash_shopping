@@ -59,8 +59,8 @@ button:focus {
 }
 .tabs li{
     width: 50%;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     float: left;
     text-align: center;
 }
@@ -104,24 +104,24 @@ button:focus {
   outline: none;
 }
 .slider-nav .cafe_name p{
-    width: 70px;
-    height: 90px;
+    width: 60px;
+    height: 70px;
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 0px 5px #cccccc;
     
 }
 .slider-nav .cafe_name p img{
-    width: 40px;
+    width: 30px;
     margin-left: 15px;
-    padding-top: 15px;
+    padding-top: 10px;
     
 }
 .slider-nav .cafe_name p span{
     display: block;
     text-align: center;
     font-size: 12px;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .slider-for{
@@ -131,8 +131,8 @@ button:focus {
 .menuBox{
     width:100%;
     display: block;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #eeeeee;
     box-sizing: border-box;
 }
@@ -145,6 +145,7 @@ button:focus {
     box-sizing: border-box;
 }
 .menuBox .imgBox img{
+    width: 35px;
     display: block;
     text-align: center;
 }
