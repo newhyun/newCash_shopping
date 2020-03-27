@@ -104,7 +104,7 @@ button:focus {
   outline: none;
 }
 .slider-nav .cafe_name p{
-    width: 60px;
+    width: 75px;
     height: 70px;
     background: #ffffff;
     border-radius: 10px;
@@ -113,7 +113,7 @@ button:focus {
 }
 .slider-nav .cafe_name p img{
     width: 30px;
-    margin-left: 15px;
+    margin-left: 23px;
     padding-top: 10px;
     
 }
